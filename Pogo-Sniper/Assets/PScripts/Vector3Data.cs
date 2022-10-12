@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu]
 public class Vector3Data : MonoBehaviour
@@ -11,9 +9,4 @@ public class Vector3Data : MonoBehaviour
         value = v3;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
