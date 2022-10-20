@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PScripts/BouncingEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/TransformBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -77,6 +78,7 @@
       <updated>1665599495672</updated>
       <workItem from="1665599501682" duration="2848000" />
       <workItem from="1666202379924" duration="1302000" />
+      <workItem from="1666306640620" duration="1480000" />
     </task>
     <servers />
   </component>
