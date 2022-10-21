@@ -24,7 +24,7 @@ namespace PScripts
                 GameObject Player = GameObject.FindWithTag("Player");
                 Rigidbody player = Player.GetComponent<Rigidbody>();
                 player.AddExplosionForce (power, epicentro, radius, upwardsModifier);
-                Debug.Log("Player has collided with Bouncer");
+            Debug.Log("Player has collided with Bouncer");
             }
         }
     }
