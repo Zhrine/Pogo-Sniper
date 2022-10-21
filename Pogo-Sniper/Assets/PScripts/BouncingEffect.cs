@@ -20,7 +20,8 @@ namespace PScripts
         }
  
         void OnCollisionEnter(Collision collision) {
-            if (collision.gameObject.tag == "Player") {
+            if (collision.gameObject.tag == "Player")
+            {
                 GameObject Player = GameObject.FindWithTag("Player");
                 Rigidbody player = Player.GetComponent<Rigidbody>();
                 player.AddExplosionForce (power, epicentro, radius, upwardsModifier);

@@ -1,16 +1,16 @@
 using UnityEngine;
-using UnityEngine.AI;
-
-public class FollowX : MonoBehaviour
-{
-    public NavMeshAgent Player;
-    public Transform Target;
-
-    // Update is called once per frame
-    void Update()
-    { 
-       Player.SetDestination(Target.position);
-   
+using System.Collections;
+  
+public class FollowX : MonoBehaviour {
+  
+    public Transform bar;
+  
+    void Start() 
+    {
+        bar = GameObject.Find("Target").transform;
+    }
+  
+    void Update() {
+        transform.position = new Vector3(bar.position.x, transform.position.y, transform.position.z);
     }
 }
-//(new Vector3(player.transform.position.x, this.transform.position.y, this.transform.position.z));
