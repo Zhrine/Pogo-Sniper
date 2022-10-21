@@ -135,8 +135,9 @@ GameObject:
   - component: {fileID: 136131724}
   - component: {fileID: 136131723}
   - component: {fileID: 136131725}
+  - component: {fileID: 136131726}
   m_Layer: 0
-  m_Name: Player Controller
+  m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,10 +175,34 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: 0}
   startDragEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 136131726}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Upscale
+          m_BoolArgument: 0
+        m_CallState: 2
   endDragEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 136131726}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: idle
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!212 &136131724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -243,6 +268,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &136131726
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136131721}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe9ee93207e5be74681afa079eb18d17, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &643330169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -256,7 +301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5178269556727599665, guid: 05f60396f760d4541a15666ab4c77eb5, type: 3}
       propertyPath: triggerScale.y
-      value: 1
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: -5178269556727599665, guid: 05f60396f760d4541a15666ab4c77eb5, type: 3}
       propertyPath: triggerScale.z
@@ -543,32 +588,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05f60396f760d4541a15666ab4c77eb5, type: 3}
---- !u!1 &2015790982 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5429754319833812843, guid: 44df6a070699a4c4f9ecd0c4e379dc01, type: 3}
-  m_PrefabInstance: {fileID: 5429754320506636525}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2015790988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015790982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 854787c736cb2484e82f1747ecbe54f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  draggable: 0
-  position: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  startDragEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  endDragEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &5429754320506636525
 PrefabInstance:
   m_ObjectHideFlags: 0
