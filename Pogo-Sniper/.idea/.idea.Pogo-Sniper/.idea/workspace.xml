@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/BouncingEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PScripts/CoRoutineBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/DraggableBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/OneWayBoxCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PScripts/TransformBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,6 +83,7 @@
       <workItem from="1666202379924" duration="1302000" />
       <workItem from="1666306640620" duration="11189000" />
       <workItem from="1666382779339" duration="2401000" />
+      <workItem from="1666834773623" duration="416000" />
     </task>
     <servers />
   </component>
