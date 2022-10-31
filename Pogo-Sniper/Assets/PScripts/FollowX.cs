@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections;
   
-public class FollowX : MonoBehaviour {
+public class FollowX : MonoBehaviour
+{
   
     public Transform bar;
   
@@ -10,7 +11,8 @@ public class FollowX : MonoBehaviour {
         bar = GameObject.Find("Target").transform;
     }
   
-    void Update() {
+    void Update() 
+    {
         transform.position = new Vector3(bar.position.x, transform.position.y, transform.position.z);
     }
 }

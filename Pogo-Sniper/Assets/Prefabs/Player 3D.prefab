@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 567788435132014137}
   - component: {fileID: 567788435132014136}
   - component: {fileID: 567788435132014139}
+  - component: {fileID: 7464956814399339030}
   - component: {fileID: 567788435132014138}
   - component: {fileID: 567788435132014278}
   - component: {fileID: 567788435132014141}
   - component: {fileID: 567788435132014140}
-  - component: {fileID: 7464956814399339030}
   m_Layer: 0
   m_Name: Player 3D
   m_TagString: Player
@@ -88,6 +88,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7464956814399339030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567788435132014143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 054539c8492fd904d9ebada5f73f1843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bar: {fileID: 0}
 --- !u!65 &567788435132014138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -153,16 +166,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 567788435132014141}
   Target: {fileID: 0}
---- !u!114 &7464956814399339030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567788435132014143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 054539c8492fd904d9ebada5f73f1843, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bar: {fileID: 0}

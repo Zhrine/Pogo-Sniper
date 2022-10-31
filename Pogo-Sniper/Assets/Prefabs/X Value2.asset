@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 603349d109d6a1d4c87d9ee8324fc92d, type: 3}
-  m_Name: PlatForm Instancer
+  m_Script: {fileID: 11500000, guid: baeb984d5fc36f54197e57fcdbd107d3, type: 3}
+  m_Name: X Value2
   m_EditorClassIdentifier: 
-  prefab: {fileID: 9027909036075649830, guid: 05f60396f760d4541a15666ab4c77eb5, type: 3}
+  value: {x: 0, y: 12, z: 0}
