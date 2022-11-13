@@ -8,7 +8,7 @@ public class Instancer : ScriptableObject
 {
     public GameObject prefab;
     private int num;
-    
+    public Transform playerPos;
     
     
     public void CreateInstance()
