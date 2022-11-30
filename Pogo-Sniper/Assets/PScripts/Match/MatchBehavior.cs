@@ -16,6 +16,7 @@ public class MatchBehavior : MonoBehaviour
         if (otherID == idObj)
         {
             matchEvent.Invoke();
+            print("match");
         }
         else
         {

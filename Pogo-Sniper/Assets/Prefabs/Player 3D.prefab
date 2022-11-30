@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 567788435132014278}
   - component: {fileID: 567788435132014141}
   - component: {fileID: 567788435132014140}
+  - component: {fileID: -367039853659607999}
+  - component: {fileID: 1413410101781016625}
   m_Layer: 0
   m_Name: Player 3D
   m_TagString: Player
@@ -166,3 +168,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 567788435132014141}
   Target: {fileID: 0}
+--- !u!114 &-367039853659607999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567788435132014143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42431b92d52ce64ba43d399e88efe46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 1e+10
+--- !u!114 &1413410101781016625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567788435132014143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a87f80931be94e489617cadd67ec516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  startCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatUntilFalseEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  canRun: 0
+  counterNum: {fileID: 0}
+  seconds: 3

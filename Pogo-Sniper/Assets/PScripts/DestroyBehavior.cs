@@ -12,5 +12,13 @@ public class DestroyBehavior : MonoBehaviour
         yield return wfsObj;
         Destroy(gameObject);
     }
-
+    void OnCollisionEnter (Collider target) 
+    {
+        if( target.gameObject.tag.Equals("Target") == true )
+        {
+            Destroy(gameObject);
+        }
+    }
+ 
+ 
 }
