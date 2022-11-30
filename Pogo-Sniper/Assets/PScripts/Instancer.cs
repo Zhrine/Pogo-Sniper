@@ -43,5 +43,11 @@ public class Instancer : ScriptableObject
         Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
         
     }
+    public void createWithPlayer(Vector3DataList obj)
+    {
+        num = Random.Range(0, obj.vector3List.Count - 1);
+        Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
+        
+    }
     
 }

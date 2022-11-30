@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -712,11 +712,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3414250537730730846, guid: b0a7c85ee796b2c41b73cee378bf34fb, type: 3}
       propertyPath: seconds
-      value: 1.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3414250537730730846, guid: b0a7c85ee796b2c41b73cee378bf34fb, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3414250537730730846, guid: b0a7c85ee796b2c41b73cee378bf34fb, type: 3}
       propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.size
@@ -845,7 +845,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486902424182528855}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 683b35abbe6766b4399c3d087fb70335, type: 3}
   m_Name: 

@@ -458,17 +458,29 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 567788435132014138, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: fc1395ec9fe96ab44b79a919c9e0521c, type: 2}
     - target: {fileID: 567788435132014140, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
       propertyPath: Target
       value: 
       objectReference: {fileID: 136196055}
     - target: {fileID: 567788435132014141, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 567788435132014141, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
       propertyPath: m_StoppingDistance
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 567788435132014143, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
       propertyPath: m_Name
       value: Player 3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 567788435132014278, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
+      propertyPath: m_Constraints
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7464956814399339030, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
       propertyPath: m_Enabled
@@ -571,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8494479980525958877, guid: 0a4adb5721bc04f44b346cef885089c1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 304
+      value: 407
       objectReference: {fileID: 0}
     - target: {fileID: 8494479980525958877, guid: 0a4adb5721bc04f44b346cef885089c1, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -736,7 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
