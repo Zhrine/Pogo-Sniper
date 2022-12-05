@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -5178269556727599665}
   - component: {fileID: -7868181561355338861}
   - component: {fileID: -1301704280601426398}
+  - component: {fileID: -2484844063941221}
   m_Layer: 0
   m_Name: PlatForm
   m_TagString: Untagged
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9027909036075649830}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b42431b92d52ce64ba43d399e88efe46, type: 3}
   m_Name: 
@@ -174,3 +175,17 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-2484844063941221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9027909036075649830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d59d4bd6f4af874bb1252dfc5a05264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 8
+  playerPos: {fileID: 567788435132014137, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}
