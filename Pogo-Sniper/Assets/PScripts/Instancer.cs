@@ -7,8 +7,9 @@ using Random = UnityEngine.Random;
 public class Instancer : ScriptableObject
 {
     public GameObject prefab;
+    public GameObject cameraPos;
     private int num;
-    public Transform playerPos;
+    
 
 
     public void CreateInstance()
@@ -44,14 +45,10 @@ public class Instancer : ScriptableObject
         num = Random.Range(0, obj.vector3List.Count - 1);
         Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
 
+
     }
 
-    public void createWithPlayer(Vector3DataList obj)
-    {
-        num = Random.Range(0, obj.vector3List.Count - 1);
-        Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
-        
-    }
+
 }
 /*
  //using System.Collections;
