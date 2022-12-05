@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baeb984d5fc36f54197e57fcdbd107d3, type: 3}
   m_Name: X Value2
   m_EditorClassIdentifier: 
-  value: {x: 0, y: 12, z: 0}
+  value: {x: 0, y: -12, z: 0}
   playerPos: {fileID: 567788435132014137, guid: 83eea035b8cc5f644aba9f416c8c2554, type: 3}

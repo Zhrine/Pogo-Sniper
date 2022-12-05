@@ -8,6 +8,7 @@ public class MoveUpBehavior : MonoBehaviour
     public Transform playerPos;
     private IEnumerator Start()
     {
+        playerPos = GameObject.Find("Spawn").transform;
         wfsObj = new WaitForSeconds(seconds);
         yield return wfsObj;
         transform.position = new Vector3(transform.position.x, playerPos.position.y, transform.position.z);
